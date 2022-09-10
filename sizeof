@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int x = 55;
+
+int newFunction() {
+   cout << "Size of char : " << sizeof(char) << " Bytes" << endl;
+   cout << "Size of int : " << sizeof(int) << " Bytes" << endl;
+   cout << "Size of short int : " << sizeof(short int) << " Bytes" << endl;
+   cout << "Size of long int : " << sizeof(long int) << " Bytes" << endl;
+   cout << "Size of float : " << sizeof(float) << " Bytes" << endl;
+   cout << "Size of double : " << sizeof(double) << " Bytes" << endl;
+   cout << "Value of = " << x << endl;
+}
+
+int main() {
+    newFunction();
+    cout << "Value of = " << x;
+    return 0;
+}
