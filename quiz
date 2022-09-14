@@ -1,0 +1,30 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main() {
+	
+	char q1, q2, q3, q4, q5;
+	cout << "Answer The Below Questions. \n";
+	cout << "Y for Yes | N for No \n";
+	cout << "1. Pakistan Got Independence In 1947? Y/N ";
+	q1 = getche();
+	cout << "\n";
+	cout << "2. Moon Is Bigger Than Sun? Y/N ";
+	q2 = getche();
+	cout << "\n";
+	cout << "3.	China Is The Biggest Country Interms Of Population? Y/N ";
+	q3 = getche();
+	cout << "\n";
+	cout << "4. Capital Of Pakistan Is Karachi? Y/N ";
+	q4 = getche();
+	cout << "\n";
+	cout << "5. Founder Of Pakistn Is Mohd Ali Jinnah? Y/N ";
+	q5 = getche();
+	cout << "\n";
+	cout << "\n";
+	cout << "Congratulations For Completing The Quiz :)";
+	
+
+	
+	}
