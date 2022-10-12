@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string pass1, pass2, pass3;
+    cout << "Enter Your Password \n";
+    cin >> pass1;
+    if (pass1 == "ahsan1") {
+        cout << "Password Correct... \n\n";
+        cout << "Enter Your 2nd Password: \n";
+        cin >> pass2;
+        if (pass2 == "ahsan2") {
+            cout << "Password Correct... \n\n";
+            cout << "Enter Your 3rd Password: \n";
+            cin >> pass3;
+            if (pass3 == "ahsan3") {
+                cout << "Password Correct...";
+            }
+        }
+    }
+    return 0;
+}
