@@ -1,0 +1,86 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double total = 500, obtained, classs, roll;
+    int physics, maths, cs, bio, chem;
+    double percent, average;
+    char name[50], fname[50], school[50];
+
+    cout << "Enter Your Name: ";
+    cin >> name;
+    cout << "\n";
+    
+    cout << "Enter Your Father's Name: ";
+    cin >> fname;
+    cout << "\n";
+    
+    cout << "Enter Your Roll No: ";
+    cin >> roll;
+    cout << "\n";
+
+    cout << "Enter Your Class: ";
+    cin >> classs;
+    cout << "\n";
+    
+    cout << "Enter Your School Name: ";
+    cin >> school;
+    cout << "\n";
+    
+    cout << "Enter Marks In Physics: ";
+    cin >> physics;
+    cout << "\n";
+
+    cout << "Enter Marks In Maths: ";
+    cin >> maths;
+    cout << "\n";
+
+    cout << "Enter Marks In CS: ";
+    cin >> cs;
+    cout << "\n";
+    
+    cout << "Enter Marks In Bio: ";
+    cin >> bio;
+    cout << "\n";
+    
+    cout << "Enter Marks In Chemistry: ";
+    cin >> chem;
+    cout << "\n\n\n";
+
+    obtained = physics+maths+cs+bio+chem;
+    average = obtained/5;
+    percent = (obtained / total) * 100;
+    
+    cout << "\n\n\n";
+
+    cout << "*****M.A.R.K.S.H.E.E.T*****\n\n";
+    cout << "Name: " << name << "\t Father's Name: " << fname;
+    cout << "\n";
+    cout << "Class: " << classs << "th" << "\t Roll No: " << roll;
+    cout << "\n\n";
+    cout << "Subjects: \n";
+    cout << "Physics: " << physics << "/100 \t" << "Maths: " << maths << "/100 \n";
+    cout << "CS: " << cs << "/100 \t\t" << "Biology: " << bio << "/100 \n";
+    cout << "Chemistry: " << chem << "/100 \n\n\n";
+    cout << "Total Marks: " << total << "\t" << "Obtained Marks: " << obtained << "\n";
+    cout << "Average Marks: " << average << "\t" << "Percentage: " << percent  << "%\n";
+
+    
+
+    if ((percent >= 80) && (percent <= 100)) {
+        cout << "Congratulations You Got A+";
+    }
+    else if ((percent >= 70) && (percent <= 79)) {
+        cout << "You Got A Grade :)";
+    }
+    else if ((percent >= 60) & (percent <= 69)) {
+        cout << "You Got B Grade :|";
+    }
+    else if ((percent >= 50) && (percent <= 59)) {
+        cout << "You Got C Grade";
+    }
+    else
+    cout << "You Are Failed :(";
+        
+    return 0;
+}
