@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char in;
+    cout << "||| Vowel Checker ||| \n\n";
+    cout << "Enter Any Letter: \n";
+    cin >> in;
+    if (in == 'a' || in == 'e' || in == 'i' || in == 'o' || in == 'u') {
+        cout << in << " is a Vowel";
+    }
+    else {
+        cout << in << " is a Consonant";
+    }
+    return 0;
+}
