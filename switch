@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char alp;
+    cout << "Enter Any Alphabet Between a-j \n";
+    cin >> alp;
+    switch (alp) {
+        case 'a':
+        cout << "a for Apple";
+        break;
+        case 'b':
+        cout << "b for Ball";
+        break;
+        case 'c':
+        cout << "c for Cat";
+        break;
+        case 'd':
+        cout << "d for Dog";
+        break;
+        case 'e':
+        cout << "e for Egg";
+        break;
+        case 'f':
+        cout << "f for Fish";
+        break;
+        case 'g':
+        cout << "g for Goat";
+        break;
+        case 'h':
+        cout << "h for Hen";
+        break;
+        case 'i':
+        cout << "i for Ice-Cream";
+        break;
+        case 'j':
+        cout << "j for Juice";
+        break;
+        default:
+        cout << "Only Enter Alphabets Between a and j";
+        break;
+    }
+    return 0;
+}
